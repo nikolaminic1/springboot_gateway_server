@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  mongodb:
+    container_name: spring_app
+    ports:
+      [ "8072:8072" ]
+    volumes:
+      [data:/data]
+
+volumes:
+  data: {}
+
+networks:
+  default:
+    name: gateway_network

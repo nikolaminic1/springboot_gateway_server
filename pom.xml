@@ -108,6 +108,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>gateway-server</finalName>
     </build>
 
 </project>
